@@ -77,26 +77,27 @@
             this.toolStripSeparator2,
             this.tsmlExit});
             this.cms.Name = "cms";
-            this.cms.Size = new System.Drawing.Size(139, 112);
+            this.cms.Size = new System.Drawing.Size(211, 140);
             // 
             // tsmlOpen
             // 
             this.tsmlOpen.Name = "tsmlOpen";
             this.tsmlOpen.ShowShortcutKeys = false;
-            this.tsmlOpen.Size = new System.Drawing.Size(138, 24);
+            this.tsmlOpen.Size = new System.Drawing.Size(210, 24);
             this.tsmlOpen.Text = "打开";
             this.tsmlOpen.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TsmlOpen_MouseDown);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(135, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(207, 6);
             // 
             // tsmlBoot
             // 
+            this.tsmlBoot.Checked = global::HostsUpdateTools.Properties.Settings.Default.IsBoot;
             this.tsmlBoot.CheckOnClick = true;
             this.tsmlBoot.Name = "tsmlBoot";
-            this.tsmlBoot.Size = new System.Drawing.Size(138, 24);
+            this.tsmlBoot.Size = new System.Drawing.Size(210, 24);
             this.tsmlBoot.Text = "开机启动";
             this.tsmlBoot.CheckedChanged += new System.EventHandler(this.TsmlBoot_CheckedChanged);
             // 
@@ -106,20 +107,20 @@
             this.tsmlAutoUpdate.CheckOnClick = true;
             this.tsmlAutoUpdate.Name = "tsmlAutoUpdate";
             this.tsmlAutoUpdate.ShowShortcutKeys = false;
-            this.tsmlAutoUpdate.Size = new System.Drawing.Size(138, 24);
+            this.tsmlAutoUpdate.Size = new System.Drawing.Size(210, 24);
             this.tsmlAutoUpdate.Text = "自动更新";
             this.tsmlAutoUpdate.CheckedChanged += new System.EventHandler(this.TsmlAutoUpdate_CheckedChanged);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(135, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(207, 6);
             // 
             // tsmlExit
             // 
             this.tsmlExit.Name = "tsmlExit";
             this.tsmlExit.ShowShortcutKeys = false;
-            this.tsmlExit.Size = new System.Drawing.Size(138, 24);
+            this.tsmlExit.Size = new System.Drawing.Size(210, 24);
             this.tsmlExit.Text = "退出";
             this.tsmlExit.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TsmlExit_MouseDown);
             // 
