@@ -14,9 +14,6 @@
     <Setting Name="HostsPath" Type="System.String" Scope="User">
       <Value Profile="(Default)">C:\Windows\System32\drivers\etc\hosts</Value>
     </Setting>
-    <Setting Name="TestHostsPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\Users\njl1\Desktop\HOSTS</Value>
-    </Setting>
     <Setting Name="IsAutoUpdate" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>

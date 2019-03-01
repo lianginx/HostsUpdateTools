@@ -19,7 +19,7 @@ namespace HostsUpdateTools
     public partial class MainFrm : Form
     {
         private string _hostsUri = Settings.Default.HostsUri;
-        private string _localHostsPath = Settings.Default.TestHostsPath;
+        private string _localHostsPath = Settings.Default.HostsPath;
         private string _regexString = Settings.Default.RegexGetUpdateTime;
         private bool _isFastStart = Settings.Default.FastStart;
 

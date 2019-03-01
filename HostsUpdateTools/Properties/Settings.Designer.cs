@@ -67,18 +67,6 @@ namespace HostsUpdateTools.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\njl1\\Desktop\\HOSTS")]
-        public string TestHostsPath {
-            get {
-                return ((string)(this["TestHostsPath"]));
-            }
-            set {
-                this["TestHostsPath"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool IsAutoUpdate {
             get {
