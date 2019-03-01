@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -24,6 +25,11 @@ namespace HostsUpdateTools
 
         public MainFrm()
         {
+            // 禁止重复启动
+            string processName = Process.GetCurrentProcess().ProcessName;
+            Process[] processes = Process.GetProcessesByName(processName);
+            if (processes.Length > 1) Environment.Exit(0);
+
             InitializeComponent();
 
             // 处理启动参数：开机启动隐藏窗体
